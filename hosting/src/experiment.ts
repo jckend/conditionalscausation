@@ -150,7 +150,7 @@ export async function runExperiment(updateDebugPanel: () => void): Promise<void>
   const instructions = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
-      <p>In this experiment, you will be presented with an image and asked to evaluate the truth of a sentence based on the scene.</p>
+      <p>In this experiment, you will be given a scenario and then asked to evaluate whether, given the scenario, you believe an individual would accept a statement.</p>
       <p>Press any key to begin.</p>
     `,
     post_trial_gap: 2000,
