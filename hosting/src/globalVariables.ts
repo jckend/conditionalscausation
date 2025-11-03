@@ -141,7 +141,7 @@ export function getDocStr(docId: string) {
   return `${docId}${dbstring}`
 }
 
-export const prolificCC = definitelyLive() ? prolificCCode : 'TESTING'
+export const prolificCC = definitelyLive() ? prolificCCode : 'C2TJMYKC'
 export const prolificCUrl = definitelyLive()
   ? `${prolificCUrlLive}?cc=${prolificCCode}`
   : `${prolificCUrlTest}?prolific&cc=${prolificCC}`
