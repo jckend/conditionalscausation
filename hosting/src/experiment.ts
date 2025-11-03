@@ -38,7 +38,6 @@ const exitMessage = `<p class="text-center align-middle">
 Please wait. You will be redirected back to Prolific in a few moments.
 <br /><br />
 If not, please use the following completion code to ensure compensation for this study: ${prolificCC}
-${debuggingText}
 </p>`
 
 const exitExperiment = (): void => {
